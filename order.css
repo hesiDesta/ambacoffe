@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Order
+{
+    color: plum;
+    font-size: 2rem;
+    text-decoration: none;
+    
+    
+}
+  .nav{
+    display: flex;
+    background-color: rgb(120, 96, 88);
+    height: 10dvh;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .home
+{
+    color: plum;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+
+.fontgue {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.main{
+    height: 90dvh;
+    background-image: url('https://nutritionfacts.org/app/uploads/2015/08/Coffee-Mortality-1200x675.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parentmain{
+    height: 70dvh;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gambar{
+    width: 40dvh;
+    height: 28dvh;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius:8px 8px 0 0;
+}
+.parentcontent{
+    padding: 50px;
+}
+.content{
+    width: 100%;
+    height: 60dvh;
+    background-color: rgb(211, 216, 220);
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.keterangan{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
